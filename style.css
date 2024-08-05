@@ -1,0 +1,58 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.Intro{
+    background-image: url(./assets/Home.png);
+    background-position: right;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.homeIntro{
+    background-image: url(./assets/home-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.homeIntro2{
+    background-image: url(./assets/home-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.homeIntro3{
+    background-image: url(./assets/home-4.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.homeIntro4{
+    background-image: url(./assets/home-5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner1{
+    background-image: url(./assets/banner1.png);
+    background-position:inherit;
+    background-repeat: no-repeat;
+}
+.banner2{
+    background-image: url(./assets/banner2.png);
+    background-position: inherit;
+    background-repeat: no-repeat;
+}
+.banner3{
+    background-image: url(./assets/banner3.jpg);
+    background-position: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner4{
+    background-image: url(./assets/banner4.jpg);
+    background-position: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner5{
+    background-image: url(./assets/banner5.jpg);
+    background-position: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

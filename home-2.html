@@ -20,19 +20,19 @@
 
     <!-- Navigation Bar -->
 
-    <section class="homeIntro h-[800px]">
+    <section class="homeIntro bg-black h-[800px]">
         <section class="NavBar bg-transparent text-white">
-            <nav class="navbar flex justify-around items-center p-[50px] text-2xl font-medium">
-                <ul class="flex justify-center items-center gap-12">
-                    <li><a href="#">Home<i class="fa-solid fa-angle-down"></i></a></li>
-                    <li><a href="#">Shop<i class="fa-solid fa-angle-down"></i></a></li>
-                    <li><a href="#">Collection</a></li>
-                    <li><a href="#">Pages<i class="fa-solid fa-angle-down"></i></a></li>
-                    <li><a href="#">Blog<i class="fa-solid fa-angle-down"></i></a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
+            <nav class="navbar grid grid-cols-1 md:grid-cols-3 justify-evenly items-center p-[20px] md:p-[60px] pl-[70px] md:pl-[200px] pr-[70px] md:pr-[200px] text-lg md:text-2xl font-medium gap-12">
                 <div class="logo"><img src="./assets/flone-logo-white.png" class="w-[200px]"></div>
-                <ul class="flex justify-center items-center gap-10 text-4xl">
+                <ul class="flex flex-col md:flex-row justify-center items-center gap-12">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Collection</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact-us</a></li>
+                </ul>
+                <ul class="flex flex-col md:flex-row justify-center items-center gap-12 md:gap-10 text-4xl">
                     <li><i class="fa-solid fa-magnifying-glass"></i></li>
                     <li><i class="fa-regular fa-user"></i></li>
                     <li><i class="fa-solid fa-shuffle"></i></li>
@@ -51,7 +51,7 @@
 
     <!-- Products -->
 
-    <section class="grid grid-cols-4 grid-rows-3 p-[30px] mt-[70px] justify-evenly">
+    <section class="grid grid-cols-1 md:grid-cols-4 md:grid-rows-3 p-[30px] mt-[70px] justify-evenly">
         <div class="card p-[20px] flex flex-col items-center justify-center"><img src="./assets/product-9.jpg">
             <h1 class="text-2xl">Lorem ipsum accessories one</h1>
             <ul class="flex justify-center items-center gap-5 pt-[20px] text-2xl">

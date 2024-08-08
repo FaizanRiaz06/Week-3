@@ -18,9 +18,9 @@
 <body>
     <!-- NavBar -->
     <section class="NavBar">
-        <nav class="navbar flex justify-between items-center p-[60px] pl-[200px] pr-[200px] text-2xl font-medium">
+        <nav class="navbar flex flex-col justify-between items-center p-[60px] pl-[200px] pr-[200px] text-2xl font-medium md:flex-row gap-12 md:gap-7">
             <div class="logo"><img src="./assets/flone-logo.png"></div>
-            <ul class="flex justify-center items-center gap-12">
+            <ul class="flex flex-col md:flex-row justify-center items-center gap-5 md:gap-12">
                 <li><a href="#">Demos</a></li>
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Support</a></li>
@@ -39,21 +39,21 @@
 
     <!-- Points -->
 
-    <section class="flex h-[300px]">
-        <div class="p-[20px] w-[25%] content-center border-x-4 border-dashed">
+    <section class="grid grid-cols-2 md:grid-cols-4 h-[300px] m-[50px]">
+        <div class="p-[20px] content-center border-x-4 border-dashed">
             <h1 class="text-3xl font-bold mb-[20px]">Latest React & Redux</h1>
             <p class="text-xl">Latest React and Redux used.</p>
         </div>
-        <div class="p-[20px] w-[25%] content-center">
+        <div class="p-[20px] content-center">
             <h1 class="text-3xl font-bold mb-[20px]">Mega Menu</h1>
             <p class="text-xl">Mega Menu is the door that has the entrance to every pages of your site. It navigates
                 things for bringing ease.</p>
         </div>
-        <div class="p-[20px] w-[25%] content-center border-x-4 border-dashed">
+        <div class="p-[20px] content-center border-x-4 border-dashed">
             <h1 class="text-3xl font-bold mb-[20px]">Responsive Design</h1>
             <p class="text-xl">Flone is super responsive & work perfectly in all devices.</p>
         </div>
-        <div class="p-[20px] w-[25%] content-center">
+        <div class="p-[20px] content-center">
             <h1 class="text-3xl font-bold mb-[20px]">Real Support</h1>
             <p class="text-xl">We provide 7 days a week one by one real support.</p>
         </div>
@@ -61,33 +61,33 @@
 
     <!-- Template Cards -->
 
-    <section class="text-center content-center">
-        <h1 class="text-[150px] mb-[70px] font-bold text-[rgb(250,17,241)]">38+</h1>
+    <section class="text-center content-center m-[50px]">
+        <h1 class="text-[150px] font-bold text-[rgb(250,17,241)]">38+</h1>
         <h1 class="text-6xl mb-[40px] font-bold">Stunning Homepages</h1>
         <p class="text-2xl">Choose a homepage to start navigating Flone. <br>Build strong & impressive websites using
             Flone’s premade
             templates.</p>
     </section>
 
-    <section class="grid grid-cols-3 grid-rows-13 p-[30px] mt-[70px] justify-evenly">
+    <section class="grid grid-cols-1 md:grid-cols-3 grid-rows-13 p-[30px] mt-[70px] justify-evenly">
         <div class="card p-[20px] flex flex-col items-center justify-center"><a href="home-1.html" target="_blank"><img
                     src="./assets/card1.png">
-                <h1 class="text-2xl mt-[30px]">Fashion Home One</h1>
+                <h1 class="text-2xl mt-[30px] text-center">Fashion Home One</h1>
             </a>
         </div>
         <div class="card p-[20px] flex flex-col items-center justify-center"><a href="home-4.html" target="_blank"><img
                     src="./assets/card2.png">
-                <h1 class="text-2xl mt-[30px]">Fashion Home Two</h1>
+                <h1 class="text-2xl mt-[30px] text-center">Fashion Home Two</h1>
             </a>
         </div>
         <div class="card p-[20px] flex flex-col items-center justify-center"><a href="home-5.html" target="_blank"><img
                     src="./assets/card3.png">
-                <h1 class="text-2xl mt-[30px]">Fashion Home Three</h1>
+                <h1 class="text-2xl mt-[30px] text-center">Fashion Home Three</h1>
             </a>
         </div>
         <div class="card p-[20px] flex flex-col items-center justify-center"><a href="home-2.html" target="_blank"><img
                     src="./assets/card4.png">
-                <h1 class="text-2xl mt-[30px]">Fashion Home Four</h1>
+                <h1 class="text-2xl mt-[30px] text-center">Fashion Home Four</h1>
             </a>
         </div>
         <div class="card p-[20px] flex flex-col items-center justify-center"><img src="./assets/card5.png">
@@ -107,7 +107,7 @@
         </div>
         <div class="card p-[20px] flex flex-col items-center justify-center"><a href="home-3.html" target="_blank"><img
                     src="./assets/card10.png">
-                <h1 class="text-2xl mt-[30px]">Cosmetics Home</h1>
+                <h1 class="text-2xl mt-[30px] text-center">Cosmetics Home</h1>
             </a>
         </div>
         <div class="card p-[20px] flex flex-col items-center justify-center"><img src="./assets/card11.png">
@@ -200,7 +200,7 @@
 
     <!-- Layout SEction -->
 
-    <section class="flex items-center justify-center">
+    <section class="flex flex-col md:flex-row items-center justify-center">
         <div>
             <p class="uppercase text-lg mb-[30px] tracking-[5px] font-bold text-[#969696]">Trying Flone's Blog</p>
             <h1 class="text-5xl font-bold leading-[8vh] mb-[30px]">Display your best articles<br> in a grid or an unique
@@ -218,7 +218,7 @@
         <div class="h-[50%] content-center text-center text-6xl text-white leading-[8vh]">
             <h1>Immensity of templates & layouts <br> with advanced options</h1>
         </div>
-        <div class="h-[50%]  grid grid-cols-2 content-center">
+        <div class="h-[50%]  grid grid-cols-1 truncate md:grid-cols-2 content-center">
             <div class="grid grid-cols-2">
                 <h1 class="text-center content-center text-[#fff421] text-8xl font-bold">7<sup>+</sup></h1>
                 <h1 class="text-xl text-white font-bold grid grid-rows-2">Premade Headers<p>Power up your pages with
@@ -238,7 +238,7 @@
         </div>
     </section>
 
-    <section class="grid grid-cols-3 p-[30px] bg-[#c9c9c9] justify-evenly">
+    <section class="grid grid-cols-1 md:grid-cols-3 p-[30px] bg-[#c9c9c9] justify-evenly">
         <div class="card p-[20px] flex flex-col items-center justify-center"><img src="./assets/layout1.jpg"></div>
         <div class="card p-[20px] flex flex-col items-center justify-center"><img src="./assets/layout2.jpg"></div>
         <div class="card p-[20px] flex flex-col items-center justify-center"><img src="./assets/layout3.jpg"></div>
@@ -265,7 +265,7 @@
         </div>
     </section>
 
-    <section class="grid grid-cols-4 p-[30px] bg-[#c9c9c9] justify-evenly">
+    <section class="grid grid-cols-2 md:grid-cols-4 p-[30px] bg-[#c9c9c9] justify-evenly">
         <div class="card p-[20px] flex flex-col items-center justify-center"><img src="./assets/landingcard1.jpg"></div>
         <div class="card p-[20px] flex flex-col items-center justify-center"><img src="./assets/landingcard2.jpg"></div>
         <div class="card p-[20px] flex flex-col items-center justify-center"><img src="./assets/landingcard3.jpg"></div>

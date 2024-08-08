@@ -21,17 +21,17 @@
 
 
     <section class="NavBar">
-        <nav class="navbar flex justify-between items-center p-[60px] pl-[200px] pr-[200px] text-2xl font-medium">
+        <nav class="navbar grid grid-cols-1 md:grid-cols-3 justify-evenly items-center p-[20px] md:p-[60px] pl-[70px] md:pl-[200px] pr-[70px] md:pr-[200px] text-lg md:text-2xl font-medium gap-12">
             <div class="logo"><img src="./assets/flone-logo.png"></div>
-            <ul class="flex justify-center items-center gap-12">
-                <li><a href="#">Home<i class="fa-solid fa-angle-down"></i></a></li>
-                <li><a href="#">Shop<i class="fa-solid fa-angle-down"></i></a></li>
+            <ul class="flex flex-col md:flex-row justify-center items-center gap-12 md:gap-10">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
                 <li><a href="#">Collection</a></li>
-                <li><a href="#">Pages<i class="fa-solid fa-angle-down"></i></a></li>
-                <li><a href="#">Blog<i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
-            <ul class="flex justify-center items-center gap-10 text-4xl">
+            <ul class="flex flex-col md:flex-row justify-center items-center gap-12 md:gap-10 text-4xl">
                 <li><i class="fa-solid fa-magnifying-glass"></i></li>
                 <li><i class="fa-regular fa-user"></i></li>
                 <li><i class="fa-solid fa-shuffle"></i></li>
@@ -43,20 +43,20 @@
 
     <!-- Introduction -->
 
-    <section class="flex bg-[#fcdefc]">
-        <div class="content-center p-[50px] pl-[100px]">
+    <section class="flex flex-col md:flex-row bg-[#fcdefc]">
+        <div class="content-center md:content-center p-[50px] pl-[100px]">
             <p class="text-3xl mb-[20px]">Smart Products</p>
-            <h1 class="text-8xl leading-[15vh] mb-[20px]">Winter Offer 2024 Collection</h1>
+            <h1 class="text-2xl md:text-8xl leading-[15vh] mb-[20px]">Winter Offer 2024 Collection</h1>
             <button class="border-4 border-[#000] p-[20px] w-[200px] text-xl uppercase">Shop Now</button>
         </div>
         <div class="flex items-center">
-            <img src="./assets/home-1.png" class="w-[900px] mr-[100px]">
+            <img src="./assets/home-1.png" class="w-[450px] md:w-[900px] mr-[100px]">
         </div>
     </section>
 
     <!-- Support -->
 
-    <section class="grid grid-cols-4 p-[50px] justify-evenly">
+    <section class="grid grid-cols-1 md:grid-cols-4 p-[50px] justify-evenly gap-12">
         <div class="flex justify-evenly">
             <img src="./assets/icon3.png">
             <p class="text-xl">Free Shipping <br> Free shipping on all order</p>
@@ -82,7 +82,7 @@
             <h1 class="uppercase text-center text-4xl font-bold p-[50px]">-----Daily Deals!-----</h1>
         </div>
         <div>
-            <ul class="flex justify-center items-center gap-12 p-[50px] text-xl font-bold">
+            <ul class="flex flex-col md:flex-row justify-center items-center gap-12 p-[50px] text-xl font-bold">
                 <li>New Arrivals</li>
                 <li class="text-3xl font-bold underline">Best Sellers</li>
                 <li>Sale Items</li>
@@ -91,7 +91,7 @@
     </section>
     <!-- Products Item -->
 
-    <section class="grid grid-cols-4 grid-rows-2 p-[30px] mt-[70px] justify-evenly">
+    <section class="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 p-[30px] mt-[70px] justify-evenly">
         <div class="card p-[20px] flex flex-col items-center justify-center"><img src="./assets/product-1.jpg">
             <h1 class="text-2xl">Lorem ipsum fashion female top</h1>
             <ul class="flex justify-center items-center gap-5 pt-[20px] text-2xl">
@@ -188,7 +188,7 @@
         </div>
     </section>
 
-    <section class="grid grid-cols-3 p-[30px] mt-[70px] justify-evenly">
+    <section class="grid grid-cols-1 md:grid-cols-3 p-[30px] mt-[70px] justify-evenly">
         <div class="card p-[20px] flex flex-col items-center justify-center"><img src="./assets/blog-1.jpg">
             <h1 class="text-2xl mt-[30px]">A guide to latest trends - <u class="text-[#969696]">By Admin</u></h1>
         </div>
@@ -202,7 +202,7 @@
 
     <!-- Footer -->
 
-    <footer class="h-[500px] bg-[#dedede] grid grid-cols-5 content-center p-[80px]">
+    <footer class="bg-[#dedede] grid grid-cols-1 md:grid-cols-5 content-center justify-center flex-center p-[80px] gap-12">
         <div class="column text-2xl leading-[5vh]">
             <img src="./assets/flone-logo.png" class="mb-[30px]">
             <p>&copy; 2024 Flone <br> All Rights Reserved</p>
